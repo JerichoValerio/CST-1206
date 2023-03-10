@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>LocalStorageDemo</title>
+        <script src="js/item.js"></script>
+    </head>
+
+    <h1>Things I carry on me...</h1>
+    <body>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>Date:</td>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td><input type="text" id="location"></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearItems()">Clear Items</button></td>
+                <td><button onclick="addItem()">Add Items</button></td>
+            </tr>
+            <tr colspan="2">
+                <td><button onclick="populateLocalStorage()">Populate LocalStorage</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
