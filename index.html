@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <script src="items.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local Storage demo</title>
+</head>
+
+<body>
+  <h1>Things I carry on me...</h1>
+
+  <table>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" id="name"></td>
+    </tr>
+
+    <tr>
+      <td>Date:</td>
+      <td><input type="date" if="date"></td>
+    </tr>
+
+    <tr>
+      <td>Location:</td>
+      <td><input type="location" if="location"></td>
+    </tr>
+
+    <tr>
+      <td><button onclick="clearItems()">Clear Items</button></td>
+      <td><button onclick="addItem()">Add Items</button></td>
+    </tr>
+  </table>
+</body>
+</html>
